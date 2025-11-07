@@ -6,9 +6,10 @@ export default defineConfig({
   description: "Dokumentation für Calliope v2",
   lang: 'de-DE',
   
-  // Base path für GitHub Pages (Repository-Name)
-  // Repository: https://github.com/HansTydecks/calliope_v2
-  base: '/calliope_v2/',
+  // Base path für GitHub Pages
+  // Für Custom Domain: '/' verwenden
+  // Für GitHub Pages ohne Custom Domain: '/calliope_v2/' verwenden
+  base: '/',
   
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
