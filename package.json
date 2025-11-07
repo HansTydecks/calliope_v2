@@ -1,0 +1,21 @@
+{
+  "name": "calliope-v2-docs",
+  "version": "1.0.0",
+  "description": "Calliope v2 VitePress Documentation",
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs"
+  },
+  "devDependencies": {
+    "vitepress": "^1.0.0"
+  },
+  "keywords": [
+    "calliope",
+    "documentation",
+    "vitepress"
+  ],
+  "author": "",
+  "license": "MIT"
+}
