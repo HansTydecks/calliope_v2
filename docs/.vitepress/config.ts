@@ -2,8 +2,8 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Calliope v2",
-  description: "Dokumentation für Calliope v2",
+  title: "Calliope",
+  description: "Dokumentation für Calliope",
   lang: 'de-DE',
   
   // Base path für GitHub Pages
@@ -34,10 +34,20 @@ export default defineConfig({
       ],
       '/kapitel2/': [
         {
-          text: 'Kapitel 2',
+          text: 'Kapitel 2: EVA-Modell',
           items: [
             { text: 'Übersicht', link: '/kapitel2/' },
             { text: 'EVA-Modell Beispiele', link: '/kapitel2/eva-modell-beispiele' }
+          ]
+        },
+        {
+          text: 'Programmieraufgaben',
+          items: [
+            { text: 'Aufgabe 1: LED-Steuerung', link: '/kapitel2/aufgabe1/' },
+            { text: 'Aufgabe 2: Temperatursensor', link: '/kapitel2/aufgabe2/' },
+            { text: 'Aufgabe 3: Lautstärkemesser', link: '/kapitel2/aufgabe3/' },
+            { text: 'Aufgabe 4: Bewegungsmelder', link: '/kapitel2/aufgabe4/' },
+            { text: 'Aufgabe 5: Reaktionstest', link: '/kapitel2/aufgabe5/' }
           ]
         }
       ],
