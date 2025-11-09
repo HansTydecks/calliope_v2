@@ -7,7 +7,7 @@ Dieses Kapitel überträgt das klassische EVA-Modell (Eingabe, Verarbeitung, Aus
 1. Starte die Calliope Programmierumgebung: [MakeCode](https://makecode.calliope.cc/#)
 2. Klicke auf neues Projekt. Nenne dein Projekt "Hallo Welt"
 3. Ziehe den "zeige Text" Block aus den "Grundlagen" in den Start Block
-![Grundlagen](./images/grundlage.pngimage.png)
+![Grundlagen](./images/grundlage.png)
 ![zeige Text](./images/ca_1_3.png)
 
 ## Den Calliope mit dem Computer verbinden
